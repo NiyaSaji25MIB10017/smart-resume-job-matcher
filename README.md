@@ -1,9 +1,11 @@
-# Smart Resume Matching System
+# Smart Resume Matching & Skill Gap Engine
+Student Name: Niya Saji
 
-[![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn-orange.svg)](https://scikit-learn.org/)
-[![Database](https://img.shields.io/badge/Storage-SQLite3-green.svg)](https://www.sqlite.org/)
-[![VITyarthi](https://img.shields.io/badge/Submission-VITyarthi%20AI%2FML-purple.svg)](#)
+Registration No: 25MIB10017
+
+Program: VITyarthi Build Your Own Project (AI/ML)
+
+This is an AI/ML project built to automatically compare candidate resumes against job descriptions. It uses TF-IDF text vectorization and cosine similarity to calculate match percentages and highlight missing skills.
 
 A production-grade, modular AI/ML system built to evaluate, score, and rank resumes against target job descriptions using **TF-IDF Vectorization**, **Cosine Similarity**, and **Automated Skill Gap Auditing**.
 
@@ -46,22 +48,13 @@ A production-grade, modular AI/ML system built to evaluate, score, and rank resu
 ```
 
 ### Mathematical Foundations
+How the Matching Works
+1. **Text Cleaning**: validator.py cleans input text and verifies candidate emails.
+2. **ML Vectorization**: processor.py converts resume and job description text into TF-IDF vectors using scikit-learn.
+3. **Similarity Score**: Calculates the cosine similarity between vectors to give a match score percentage.
+4. **Database Storage**: Saves evaluation results directly into SQLite (vityarthi_ml.db).   
 
-1. **TF-IDF Calculation**:
-   $$\text{TF-IDF}(t, d, D) = \text{TF}(t, d) \times \log\left(\frac{1 + |D|}{1 + |\{d \in D : t \in d\}|}\right) + 1$$
-   - Sublinear term frequency scaling is applied: $\text{TF}(t, d) = 1 + \log(\text{count}(t, d))$ for $\text{count} > 0$.
-   - Unigram and Bigram combinations $(1, 2)$ capture phrases such as `machine learning`, `deep learning`, `ci/cd`.
 
-2. **Cosine Similarity**:
-   $$\text{Similarity}(\mathbf{r}, \mathbf{j}) = \frac{\mathbf{r} \cdot \mathbf{j}}{\|\mathbf{r}\|_2 \|\mathbf{j}\|_2} = \frac{\sum_{i=1}^n r_i j_i}{\sqrt{\sum_{i=1}^n r_i^2} \sqrt{\sum_{i=1}^n j_i^2}}$$
-   - Produces an exact geometric similarity score bounded strictly in $[0.0, 1.0]$.
-   - Converted to a percentage: $\text{Score \%} = \text{Similarity} \times 100$.
-
-3. **Skill Gap Set Theory**:
-   $$\text{Matched Skills} = S_{\text{required}} \cap S_{\text{candidate}}$$
-   $$\text{Missing Skills} = S_{\text{required}} \setminus S_{\text{candidate}}$$
-
----
 
 ## 2. Project Directory Structure
 
@@ -186,11 +179,9 @@ Every operational event is recorded with strict timestamps and log levels (`INFO
 
 ## 7. Submission Checklist
 
-- [x] 6 modular files (`config.py`, `validator.py`, `models.py`, `database.py`, `processor.py`, `main.py`)
-- [x] Scikit-learn TF-IDF & Cosine Similarity ML Engine
-- [x] Input sanitization and email validation
-- [x] SQLite persistence (`vityarthi_ml.db`)
-- [x] Dual logging to console and `app.log`
-- [x] Detailed Problem Statement document (`statement.md`)
-- [x] Setup and testing documentation (`README.md`)
-- [x] Zero runtime errors
+- [x] Modular Python code split into 6 files
+- [x] Machine Learning logic using Scikit-Learn (TF-IDF & Cosine Similarity)   -
+- [x] Input sanitization and email check
+- [x] SQLite database storage for results
+- [x] Error handling and event logging in app.log
+- [x] Complete README and project statement   
