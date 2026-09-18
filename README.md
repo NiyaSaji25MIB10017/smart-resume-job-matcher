@@ -1,13 +1,10 @@
 # Smart Resume Matching & Skill Gap Engine
-Student Name: Niya Saji
+# Smart Resume Matching Engine
 
-Registration No: 25MIB10017
+A simple Python project built for my VITyarthi submission. The main idea is to automate resume screening by running a similarity check against job descriptions instead of doing it manually.
 
-Program: VITyarthi Build Your Own Project (AI/ML)
-
-This is an AI/ML project built to automatically compare candidate resumes against job descriptions. It uses TF-IDF text vectorization and cosine similarity to calculate match percentages and highlight missing skills.
-
-A production-grade, modular AI/ML system built to evaluate, score, and rank resumes against target job descriptions using **TF-IDF Vectorization**, **Cosine Similarity**, and **Automated Skill Gap Auditing**.
+* **How it works:** Cleans text, runs TF-IDF + Cosine Similarity, and highlights missing skills
+* **Storage:** Saves candidate scores to vityarthi_ml.db
 
 ---
 
