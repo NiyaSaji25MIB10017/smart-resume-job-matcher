@@ -1,5 +1,4 @@
 # Smart Resume Matching & Skill Gap Engine
-# Smart Resume Matching Engine
 
 A simple Python project built for my VITyarthi submission. The main idea is to automate resume screening by running a similarity check against job descriptions instead of doing it manually.
 
