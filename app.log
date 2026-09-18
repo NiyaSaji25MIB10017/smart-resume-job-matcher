@@ -1,0 +1,84 @@
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:main:106] Initializing Smart Resume Matching System pipeline...
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:init_db:32] Initializing SQLite database at: C:\Users\Niya\vityarthi_resume_ml\vityarthi_ml.db
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:init_db:85] Database schema initialized successfully.
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:__init__:47] Initialized ResumeMatcher ML Engine with N-gram=(1, 2), MaxFeatures=5000
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:insert_job_posting:125] Persisted job posting: Senior AI / Machine Learning Engineer (JOB-101)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:insert_job_posting:125] Persisted job posting: Full-Stack Cloud Engineer (JOB-102)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Dr. Sarah Chen (RES-001)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Alex Mercer (RES-002)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Rohan Sharma (RES-003)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Dr. Sarah Chen' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 18.18% | Matched: 7 | Missing: 0 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=1: Candidate=RES-001 to Job=JOB-101 (Score=18.18%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Alex Mercer' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 6.93% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=2: Candidate=RES-002 to Job=JOB-101 (Score=6.93%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Rohan Sharma' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 13.26% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=3: Candidate=RES-003 to Job=JOB-101 (Score=13.26%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Dr. Sarah Chen' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 3.36% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=4: Candidate=RES-001 to Job=JOB-102 (Score=3.36%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Alex Mercer' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 15.28% | Matched: 7 | Missing: 0 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=5: Candidate=RES-002 to Job=JOB-102 (Score=15.28%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Rohan Sharma' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 3.44% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=6: Candidate=RES-003 to Job=JOB-102 (Score=3.44%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:17:24] [INFO] [ResumeMatcher:main:203] Pipeline execution completed successfully with 6 scoring records.
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:main:106] Initializing Smart Resume Matching System pipeline...
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:init_db:32] Initializing SQLite database at: C:\Users\Niya\vityarthi_resume_ml\vityarthi_ml.db
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:init_db:85] Database schema initialized successfully.
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:__init__:47] Initialized ResumeMatcher ML Engine with N-gram=(1, 2), MaxFeatures=5000
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:insert_job_posting:125] Persisted job posting: Senior AI / Machine Learning Engineer (JOB-101)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:insert_job_posting:125] Persisted job posting: Full-Stack Cloud Engineer (JOB-102)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Dr. Sarah Chen (RES-001)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Alex Mercer (RES-002)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Rohan Sharma (RES-003)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Dr. Sarah Chen' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 18.18% | Matched: 7 | Missing: 0 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=7: Candidate=RES-001 to Job=JOB-101 (Score=18.18%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Alex Mercer' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 6.93% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=8: Candidate=RES-002 to Job=JOB-101 (Score=6.93%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Rohan Sharma' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 13.26% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=9: Candidate=RES-003 to Job=JOB-101 (Score=13.26%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Dr. Sarah Chen' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 3.36% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=10: Candidate=RES-001 to Job=JOB-102 (Score=3.36%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Alex Mercer' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 15.28% | Matched: 7 | Missing: 0 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=11: Candidate=RES-002 to Job=JOB-102 (Score=15.28%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Rohan Sharma' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 3.44% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=12: Candidate=RES-003 to Job=JOB-102 (Score=3.44%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:03] [INFO] [ResumeMatcher:main:203] Pipeline execution completed successfully with 6 scoring records.
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:main:106] Initializing Smart Resume Matching System pipeline...
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:init_db:32] Initializing SQLite database at: C:\Users\Niya\vityarthi_resume_ml\vityarthi_ml.db
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:init_db:85] Database schema initialized successfully.
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:__init__:47] Initialized ResumeMatcher ML Engine with N-gram=(1, 2), MaxFeatures=5000
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:insert_job_posting:125] Persisted job posting: Senior AI / Machine Learning Engineer (JOB-101)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:insert_job_posting:125] Persisted job posting: Full-Stack Cloud Engineer (JOB-102)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Dr. Sarah Chen (RES-001)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Alex Mercer (RES-002)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:insert_candidate:105] Persisted candidate profile: Rohan Sharma (RES-003)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Dr. Sarah Chen' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 18.18% | Matched: 7 | Missing: 0 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=13: Candidate=RES-001 to Job=JOB-101 (Score=18.18%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Alex Mercer' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 6.93% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=14: Candidate=RES-002 to Job=JOB-101 (Score=6.93%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Rohan Sharma' against Job 'Senior AI / Machine Learning Engineer'...
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 13.26% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=15: Candidate=RES-003 to Job=JOB-101 (Score=13.26%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Dr. Sarah Chen' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 3.36% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=16: Candidate=RES-001 to Job=JOB-102 (Score=3.36%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Alex Mercer' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 15.28% | Matched: 7 | Missing: 0 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=17: Candidate=RES-002 to Job=JOB-102 (Score=15.28%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:149] Evaluating Candidate 'Rohan Sharma' against Job 'Full-Stack Cloud Engineer'...
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:evaluate_match:176] Evaluation Complete -> Score: 3.44% | Matched: 2 | Missing: 5 | Decision: Not Recommended (High Skill Gap - Tier 4)
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:save_match_result:149] Persisted match result ID=18: Candidate=RES-003 to Job=JOB-102 (Score=3.44%, Tier='Not Recommended (High Skill Gap - Tier 4)')
+[2026-09-18 09:33:46] [INFO] [ResumeMatcher:main:203] Pipeline execution completed successfully with 6 scoring records.
